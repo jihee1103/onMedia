@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+
+  background-color: rgb(220, 220, 220);
+  color: black;
+
+  padding: 30px 100px 30px;
+  margin: 0 auto;
+}
+
+.et-logo {
+  position: relative;
+  width: 205px;
+  top: -5px;
+}
+
+.info {
+  line-height: 1.25rem;
+}
+
+.v-line {
+  border-left: thin solid black;
+  height: 60px;
+}
