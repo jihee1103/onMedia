@@ -3,7 +3,7 @@ export function ScienceLogo() {
 }
 
 export function IndustryLogo() {
-  return <img src="/assets/industry-logo.svg" alt="산업통상자원부 로고" />;
+  return <img src="/assets/Industry-logo.svg" alt="산업통상자원부 로고" />;
 }
 
 export function MinistryLogo() {
