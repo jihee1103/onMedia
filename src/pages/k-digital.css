@@ -1,0 +1,220 @@
+.pageWrapper {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  line-height: 1.5rem;
+  color: black;
+  font-family: pretendard;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 모든 자식 요소를 가로 중앙에 배치 */
+}
+
+.mainImage {
+  width: 100%;
+  margin: 0;
+  max-width: 100%; /* 이미지가 컨테이너를 넘어가지 않도록 설정 */
+  height: auto; /* 비율 유지 */
+}
+
+.digitalAward {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 내부 요소들도 중앙 정렬 */
+  box-sizing: border-box; /* 패딩이 너비에 포함되도록 설정 */
+}
+
+.logo {
+  display: flex;
+  justify-content: center; /* 로고들을 가로로 중앙 정렬 */
+  gap: 30px; /* 로고 사이 간격 */
+  flex-wrap: wrap; /* 화면이 작을 때 로고가 줄바꿈 되도록 설정 */
+  margin: 20px 0;
+}
+
+.logo > img {
+  height: 40px;
+  max-width: 100%; /* 이미지가 컨테이너를 넘어가지 않도록 설정 */
+}
+
+.intro {
+  color: white;
+  margin-top: 5rem;
+  width: 100%; /* 전체 너비 사용 */
+}
+
+.intro > h3 {
+  background-image: url(/src/assets/mobileAward/intro.png);
+  background-position: center;
+  background-size: cover;
+  padding: 3rem 0; /* 패딩으로 높이 조절 */
+  height: auto; /* 높이는 컨텐츠에 맞게 자동 조정 */
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 150%;
+  /* 텍스트를 정중앙에 배치하기 위한 설정 */
+  display: flex;
+  align-items: center; /* 수직 중앙 정렬 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  text-align: center; /* 텍스트 자체도 중앙 정렬 */
+}
+
+.summary {
+  width: 100%;
+  max-width: 1200px; /* 최대 너비 설정 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index {
+  width: auto;
+  min-width: 5rem;
+  display: inline-block;
+  background-color: #18498e;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 80px 0 30px 0;
+  padding: 10px 20px; /* 좌우 패딩 추가하여 텍스트 주변 여백 확보 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+}
+
+.schedule,
+.awarded,
+.summary > div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 각 섹션의 내용도 중앙 정렬 */
+}
+
+.text {
+  text-align: center;
+  width: 100%;
+  max-width: 1000px; /* 최대 너비 설정 */
+}
+
+.awardedCompany {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.awardedCompany > img {
+  width: 100%;
+  max-width: 600px; /* 최대 너비 설정 */
+  height: auto; /* 비율 유지 */
+  margin-bottom: 50px;
+}
+
+.reward {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0 60px 0;
+  width: 100%;
+}
+
+.reward > img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 400px; /* 최대 높이 설정 */
+  object-fit: contain; /* 이미지 비율 유지 */
+}
+
+.evaluation-table {
+  width: 100%;
+  max-width: 1000px;
+  margin: 3rem auto;
+  border-collapse: collapse;
+  font-family: pretendard;
+}
+
+.evaluation-table th {
+  background-color: #4b6c9a;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.evaluation-table td {
+  padding: 25px 15px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.digital-ul {
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.digital-ul > li {
+  list-style-type: disc;
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
+
+/* 반응형 설정 */
+@media (max-width: 768px) {
+  .pageWrapper {
+    padding: 0 10px;
+  }
+
+  .logo {
+    gap: 10px;
+  }
+
+  .index {
+    font-size: 1.1rem;
+    min-width: auto;
+    padding: 8px 15px;
+  }
+
+  .reward {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .reward > img {
+    margin-bottom: 15px;
+  }
+
+  .evaluation-table th,
+  .evaluation-table td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  .digital-ul > li {
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+  }
+}
+
+/* 특별히 상패, 엠블럼 이미지를 위한 스타일 */
+.rewards-badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.rewards-badge > img {
+  max-height: 300px;
+  max-width: 250px;
+  height: auto;
+  object-fit: contain;
+}
