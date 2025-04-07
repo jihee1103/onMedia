@@ -10,15 +10,15 @@ import Banner from "./Banner";
 
 const carouselData = [
   {
-    src: "/src/assets/digitalAward/1.png",
+    src: "/assets/digitalAward/1.png",
     id: "k-digital",
   },
   {
-    src: "/src/assets/mobileAward/1.png",
+    src: "/assets/mobileAward/1.png",
     id: "mobile",
   },
   {
-    src: "/src/assets/mobileAward/2.png",
+    src: "/assets/mobileAward/2.png",
     id: "mobile",
   },
 ];

@@ -1,4 +1,4 @@
-import awardsLogo from "/src/assets/awards-logo.svg";
+import awardsLogo from "/assets/awards-logo.svg";
 import "./header.css";
 import { Link } from "react-router-dom";
 

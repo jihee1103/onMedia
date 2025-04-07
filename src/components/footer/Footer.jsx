@@ -1,4 +1,4 @@
-import etLogo from "/src/assets/et-logo.svg";
+import etLogo from "/assets/et-logo.svg";
 import "./footer.css";
 
 function Footer() {

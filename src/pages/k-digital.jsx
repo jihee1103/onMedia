@@ -1,4 +1,4 @@
-import digitalPage1 from "/src/assets/digitalAward/1.png";
+import digitalPage1 from "/assets/digitalAward/1.png";
 import "./k-digital.css";
 import {
   EtnewsLogo,
@@ -93,14 +93,14 @@ function Kdigital() {
             <div className="text">
               <h4>전자신문 지면기사 및 온라인기사</h4>
               <div className="reward">
-                <img src="/src/assets/digitalAward/digital-news1.jpg" />
-                <img src="/src/assets/digitalAward/digital-news2.png" />
+                <img src="/assets/digitalAward/digital-news1.jpg" />
+                <img src="/assets/digitalAward/digital-news2.png" />
               </div>
               <h4>상패, 인증팝업 및 엠블럼(1년간 사용)</h4>
               <div className="rewards-badge">
-                <img src="/src/assets/digitalAward/digital-reward1.jpg" />
-                <img src="/src/assets/digitalAward/digital-reward3.png" />
-                <img src="/src/assets/digitalAward/digital-reward2.png" />
+                <img src="/assets/digitalAward/digital-reward1.jpg" />
+                <img src="/assets/digitalAward/digital-reward3.png" />
+                <img src="/assets/digitalAward/digital-reward2.png" />
               </div>
             </div>
           </div>
@@ -108,7 +108,7 @@ function Kdigital() {
           <div className="awarded">
             <div className="index">2024 수상사</div>
             <div className="awardedCompany">
-              <img src="/src/assets/digitalAward/digital-2024awarded.jpg" />
+              <img src="/assets/digitalAward/digital-2024awarded.jpg" />
             </div>
           </div>
         </div>

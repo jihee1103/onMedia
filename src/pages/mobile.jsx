@@ -1,4 +1,4 @@
-import mobilePage1 from "/src/assets/mobileAward/1.png";
+import mobilePage1 from "/assets/mobileAward/1.png";
 import "./mobile.css";
 import {
   EtnewsLogo,
@@ -166,17 +166,17 @@ function Mobile() {
             <div className="text">
               <h4>전자신문 지면기사 및 온라인기사</h4>
               <div className="reward">
-                <img src="/src/assets/mobileAward/mobile-news1.jpg" />
-                <img src="/src/assets/mobileAward/mobile-news2.png" />
+                <img src="/assets/mobileAward/mobile-news1.jpg" />
+                <img src="/assets/mobileAward/mobile-news2.png" />
               </div>
               <h4>상패, 인증팝업 및 엠블럼(1년간 사용)</h4>
               <div className="rewards-badge">
-                <img src="/src/assets/mobileAward/mobile-reward1.jpg" />
-                <img src="/src/assets/mobileAward/mobile-reward2.png" />
+                <img src="/assets/mobileAward/mobile-reward1.jpg" />
+                <img src="/assets/mobileAward/mobile-reward2.png" />
               </div>
               <div className="rewards-badge">
-                <img src="/src/assets/mobileAward/mobile-reward3.jpg" />
-                <img src="/src/assets/mobileAward/mobile-reward4.png" />
+                <img src="/assets/mobileAward/mobile-reward3.jpg" />
+                <img src="/assets/mobileAward/mobile-reward4.png" />
               </div>
             </div>
           </div>
@@ -184,7 +184,7 @@ function Mobile() {
           <div className="awarded">
             <div className="index-mobile">2024 수상사</div>
             <div className="awardedCompany">
-              <img src="/src/assets/mobileAward/2024kmsa-awarded.png" />
+              <img src="/assets/mobileAward/2024kmsa-awarded.png" />
             </div>
           </div>
         </div>
