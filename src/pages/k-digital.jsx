@@ -1,4 +1,3 @@
-import digitalPage1 from "/assets/digitalAward/1.png";
 import "./k-digital.css";
 import {
   EtnewsLogo,
@@ -10,7 +9,11 @@ import {
 function Kdigital() {
   return (
     <div className="pageWrapper">
-      <img src={digitalPage1} className="mainImage" alt="디지털대상" />
+      <img
+        src="/assets/digitalAward/1.png"
+        className="mainImage"
+        alt="디지털대상"
+      />
       <div className="digitalAward">
         <div className="summary">
           <div>

@@ -1,4 +1,3 @@
-import etLogo from "/assets/et-logo.svg";
 import "./footer.css";
 
 function Footer() {
@@ -6,7 +5,7 @@ function Footer() {
     <>
       <div className="footer">
         <div>
-          <img src={etLogo} className="et-logo" alt="전자신문" />
+          <img src="/assets/et-logo.svg" alt="로고" />
         </div>
         <div className="v-line"></div>
         <div className="info">

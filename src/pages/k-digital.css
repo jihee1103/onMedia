@@ -45,7 +45,7 @@
 }
 
 .intro > h3 {
-  background-image: url(/src/assets/mobileAward/intro.png);
+  background-image: url(/assets/mobileAward/intro.png);
   background-position: center;
   background-size: cover;
   padding: 3rem 0; /* 패딩으로 높이 조절 */

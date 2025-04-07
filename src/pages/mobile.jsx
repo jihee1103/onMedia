@@ -1,4 +1,3 @@
-import mobilePage1 from "/assets/mobileAward/1.png";
 import "./mobile.css";
 import {
   EtnewsLogo,
@@ -10,7 +9,11 @@ import {
 function Mobile() {
   return (
     <div className="pageWrapper">
-      <img src={mobilePage1} className="mainImage" alt="모바일대상" />
+      <img
+        src="/assets/mobileAward/1.png"
+        className="mainImage"
+        alt="모바일대상"
+      />
       <div className="mobileAward">
         <div className="summary">
           <div>

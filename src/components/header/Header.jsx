@@ -1,4 +1,3 @@
-import awardsLogo from "/assets/awards-logo.svg";
 import "./header.css";
 import { Link } from "react-router-dom";
 
@@ -8,7 +7,11 @@ function Header() {
       <div className="header">
         <div>
           <Link to="/">
-            <img src={awardsLogo} className="awards-logo" alt="전자신문" />
+            <img
+              src="/assets/awards-logo.svg"
+              className="awards-logo"
+              alt="전자신문"
+            />
           </Link>
         </div>
         <nav className="category">
