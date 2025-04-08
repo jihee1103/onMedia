@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Intro.module.scss";
+import styles from "./intro.module.scss";
 
 function Intro({ type }) {
   const introTexts = {

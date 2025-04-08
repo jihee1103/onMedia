@@ -1,4 +1,4 @@
-import styles from "./MainImage.module.scss";
+import styles from "./mainImage.module.scss";
 
 function MainImage({ type }) {
   const imagePaths = {
