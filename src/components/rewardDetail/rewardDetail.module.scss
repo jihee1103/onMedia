@@ -1,0 +1,39 @@
+.rewardWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.reward {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 20px 0 60px 0;
+  align-items: center;
+  font-weight: 500;
+
+  >img {
+    max-width: 300px;
+    height: 250px;
+    /* 최대 높이 설정 */
+    object-fit: contain;
+    /* 이미지 비율 유지 */
+    // border: 1px #525252 solid;
+    box-shadow: 4px 5px 14px 0px rgba(0, 0, 0, 0.33);
+  }
+}
+
+.emblem {
+  display: flex;
+  flex: row;
+  gap: 50px;
+  >img {
+      max-width: 250px;
+      max-height: 200px;
+      object-fit: contain;
+    }
+}

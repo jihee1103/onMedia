@@ -1,0 +1,33 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  /* 로고들을 가로로 중앙 정렬 */
+  gap: 30px;
+  /* 로고 사이 간격 */
+  flex-wrap: wrap;
+  /* 화면이 작을 때 로고가 줄바꿈 되도록 설정 */
+  margin: 0 0 40px;
+
+  >img {
+    height: 40px;
+    max-width: 100%;
+    /* 이미지가 컨테이너를 넘어가지 않도록 설정 */
+  }
+}
+
+.digitalLogo {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin: 0 0 40px;
+
+  >img {
+    height: 40px;
+    max-width: 100%;
+  }
+}
+
+.wrapper {
+  margin: 10px 0;
+}

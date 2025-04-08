@@ -1,0 +1,72 @@
+.mobileTable {
+  border-collapse: separate;
+  line-height: 1.5rem;
+
+  th {
+    vertical-align: middle;
+    text-align: center;
+    padding: 10px 20px;
+    /* 좌우 여백 추가 */
+    background-color: #f2f2f2;
+    /* 배경색 설정 */
+    border-radius: 5px;
+    /* 모서리 둥글게 */
+    height: 40px;
+    /* 일정한 높이 설정 */
+    min-width: 100px;
+    /* 최소 너비 설정 (필요에 따라 조정) */
+
+    /* 높이를 지정한 경우 내용이 중앙에 오도록 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* 모양 향상을 위한 추가 스타일 */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-weight: 600;
+
+    margin: 15px 30px 15px 0;
+  }
+
+  td {
+    vertical-align: middle;
+    line-height: 1.5rem;
+    list-style-type: disc;
+    }
+}
+
+.evaluationTable {
+  width: 100%;
+  max-width: 1000px;
+  border-collapse: collapse;
+  font-family: pretendard;
+  margin-bottom: 20px;
+}
+
+.evaluationTable th {
+  background-color: rgba(23, 43, 70, 0.68);
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  font-weight: 600;
+  margin: 15px 30px 15px 0;
+}
+
+.evaluationTable td {
+  padding: 25px 15px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.digitalUl  {
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-left: 20px;
+}
+
+.digitalUl >li {
+  list-style-type: disc;
+  line-height: 2rem;
+  margin-bottom: 10px;
+}
