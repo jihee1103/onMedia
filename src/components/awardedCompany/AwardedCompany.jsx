@@ -1,4 +1,4 @@
-import styles from "./AwardedCompany.module.scss";
+import styles from "./awardedCompany.module.scss";
 import IndexTitle from "../index/Index";
 
 function AwardedCompany({ type }) {
