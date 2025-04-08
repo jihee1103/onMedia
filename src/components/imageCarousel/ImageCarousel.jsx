@@ -18,8 +18,8 @@ const carouselData = [
     id: "mobile",
   },
   {
-    src: "/assets/mobileAward/2.png",
-    id: "mobile",
+    src: "/assets/applianceAward/1.png",
+    id: "appliance",
   },
 ];
 

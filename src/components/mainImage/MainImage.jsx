@@ -4,7 +4,7 @@ function MainImage({ type }) {
   const imagePaths = {
     digital: "/assets/digitalAward/1.png",
     mobile: "/assets/mobileAward/1.png",
-    appliance: "/assets/mobileAward/1.png",
+    appliance: "/assets/applianceAward/1.png",
   };
 
   return (

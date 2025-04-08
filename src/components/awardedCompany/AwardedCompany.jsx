@@ -5,7 +5,7 @@ function AwardedCompany({ type }) {
   const awardedImages = {
     digital: "/assets/digitalAward/digital-2024awarded.jpg",
     mobile: "/assets/mobileAward/mobile-2024awarded.png",
-    appliance: "/assets/mobileAward/mobile-2024awarded.png",
+    appliance: "/assets/applianceAward/appliance-2024awarded.jpg",
   };
 
   return (
