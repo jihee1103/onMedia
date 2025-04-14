@@ -27,7 +27,10 @@ function RewardDetail({ type }) {
           <div className={styles.reward}>
             <div className={styles.emblem}>
               <img src="/assets/digitalAward/digital-reward2.png" />
-              <img src="/assets/digitalAward/digital-reward3.png" />
+              <img
+                src="/assets/digitalAward/digital-reward3.png"
+                className={styles.emblem2}
+              />
             </div>
             <div>수상 엠블럼</div>
           </div>
