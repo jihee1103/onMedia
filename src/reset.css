@@ -83,7 +83,8 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: "pretendard", sans-serif;
+  /* 여기서 직접적인 폰트 지정 대신 상속 사용 */
+  font: inherit;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -102,6 +103,9 @@ section {
 }
 body {
   line-height: 1;
+  /* body에 폰트 정의 */
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 blockquote,
