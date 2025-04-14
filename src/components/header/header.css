@@ -8,6 +8,7 @@
   min-width: 769px;
   height: 5.625vw;
   min-height: 60px;
+  max-height: 80px;
   margin: 0 auto;
   background-color: white;
   box-shadow: 0px 1px 15px -3px rgba(0, 0, 0, 0.75);
