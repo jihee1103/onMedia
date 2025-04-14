@@ -1,4 +1,4 @@
-import IndexTitle from "../index/Index";
+import IndexTitle from "../index/IndexTitle";
 import styles from "./schedule.module.scss";
 
 function Schedule({ type }) {

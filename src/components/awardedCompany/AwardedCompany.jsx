@@ -1,5 +1,5 @@
 import styles from "./awardedCompany.module.scss";
-import IndexTitle from "../index/Index";
+import IndexTitle from "../index/IndexTitle";
 
 function AwardedCompany({ type }) {
   const awardedImages = {
@@ -10,7 +10,9 @@ function AwardedCompany({ type }) {
 
   return (
     <div className={styles.awarded}>
-      <IndexTitle type={type}>2024 수상사</IndexTitle>
+      <div>
+        <IndexTitle type={type}>2024 수상사</IndexTitle>
+      </div>
       <div className={styles.awardedCompany}>
         <img src={awardedImages[type]} alt={`${type} 2024 수상사`} />
       </div>

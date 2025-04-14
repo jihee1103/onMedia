@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./index.module.scss";
+import styles from "./indexTitle.module.scss";
 
 function IndexTitle({ children, type }) {
   // type에 따라 다른 스타일 적용 (digital, mobile, 또는 appliance)

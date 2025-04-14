@@ -6,7 +6,7 @@ import {
   IndustryLogo,
 } from "@/components/logo";
 import styles from "./hostLogo.module.scss";
-import IndexTitle from "../index/Index";
+import IndexTitle from "../index/IndexTitle";
 
 const HostLogo = ({ type }) => {
   // type에 따라 다른 로고 조합과 IndexTitle 타입 설정

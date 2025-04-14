@@ -1,4 +1,4 @@
-import IndexTitle from "../index/Index";
+import IndexTitle from "../index/IndexTitle";
 import styles from "./evaluation.module.scss";
 
 function Evaluation({ type }) {

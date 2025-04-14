@@ -1,12 +1,14 @@
 import styles from "./rewardDetail.module.scss";
-import IndexTitle from "../index/Index";
+import IndexTitle from "../index/IndexTitle";
 
 function RewardDetail({ type }) {
   // type 파라미터를 사용하여 조건부 렌더링
   if (type === "digital") {
     return (
       <>
-        <IndexTitle type={"digital"}>홍보특전</IndexTitle>
+        <div>
+          <IndexTitle type={"digital"}>홍보특전</IndexTitle>
+        </div>
         <div className={styles.rewardWrapper}>
           <div className={styles.reward}>
             <img src="/assets/digitalAward/digital-news1.jpg" />
@@ -35,7 +37,9 @@ function RewardDetail({ type }) {
   } else if (type === "appliance") {
     return (
       <>
-        <IndexTitle type={"appliance"}>홍보특전</IndexTitle>
+        <div>
+          <IndexTitle type={"appliance"}>홍보특전</IndexTitle>
+        </div>
         <div className={styles.rewardWrapper}>
           <div className={styles.reward}>
             <img src="/assets/applianceAward/appliance-news1.jpg" />
@@ -68,7 +72,9 @@ function RewardDetail({ type }) {
   } else if (type === "mobile") {
     return (
       <>
-        <IndexTitle type={"mobile"}>홍보특전</IndexTitle>
+        <div>
+          <IndexTitle type={"mobile"}>홍보특전</IndexTitle>
+        </div>
         <div className={styles.rewardWrapper}>
           <div className={styles.reward}>
             <img src="/assets/mobileAward/mobile-news1.jpg" />

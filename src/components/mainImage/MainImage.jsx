@@ -8,11 +8,7 @@ function MainImage({ type }) {
   };
 
   return (
-    <img
-      src={imagePaths[type]}
-      className={styles.mainImage}
-      alt={`${type} 대상`}
-    />
+    <img src={imagePaths[type]} className={styles.mainImage} alt={`${type}`} />
   );
 }
 

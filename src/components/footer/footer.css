@@ -5,7 +5,7 @@
   gap: 50px;
 
   background-color: rgb(220, 220, 220);
-  color: black;
+  color: rgba(31, 41, 55, 1);
 
   padding: 30px 100px 30px;
   margin: 0 auto;
@@ -22,7 +22,7 @@
 }
 
 .v-line {
-  border-left: thin solid black;
+  border-left: thin solid rgba(31, 41, 55, 1);
   height: 60px;
 }
 
