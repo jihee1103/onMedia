@@ -9,21 +9,31 @@
   flex-direction: column;
 }
 .serviceTable {
+  font-size: 16px;
   border-collapse: separate;
-  border-spacing: 0 20px; // 행 사이의 수직 간격 추가
-  font-family: "Pretendard";
 
   th {
-    background-color: #f2f2f2;
-    text-align: center;
     font-weight: 500;
+
+    height: 40px;
+    min-width: 100px;
+    padding: 10px 20px;
+    margin: 15px 15px 15px 0;
+
+    background-color: #f2f2f2;
     border-radius: 5px;
-    padding: 12px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
   }
 
   td {
     padding: 12px;
     text-align: left;
+    vertical-align: middle;
   }
 
   tr:nth-child(odd) td {
@@ -32,12 +42,14 @@
 }
 
 /* 반응형 설정 */
-@media (max-width: 768px) {
-  .service-table {
+@media (max-width: 940px) {
+  .text {
+    margin: 0 5vw;
+  }
+  .serviceTable {
     th {
-      width: 100px;
-      font-size: 14px;
-      padding: 8px;
+      width: 90px;
+      padding: 5px;
     }
 
     td {
@@ -45,4 +57,5 @@
       padding: 8px;
     }
   }
+
 }
