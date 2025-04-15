@@ -1,6 +1,6 @@
 import "./header.css";
 import { Link } from "react-router-dom";
-import MobileMenu from "./mobileMenu";
+import MobileMenu from "./MobileMenu";
 
 function Header() {
   return (
