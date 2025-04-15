@@ -1,5 +1,6 @@
 import "./header.css";
 import { Link } from "react-router-dom";
+import MobileMenu from "./mobileMenu";
 
 function Header() {
   return (
@@ -29,6 +30,9 @@ function Header() {
               <Link to="/about">CONTACT</Link>
             </li>
           </ul>
+        </nav>
+        <nav className="mobileCategory">
+          <MobileMenu />
         </nav>
       </div>
     </>

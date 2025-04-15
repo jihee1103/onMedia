@@ -1,11 +1,17 @@
 .schedule {
   line-height: 1.5rem;
-  padding: 0 1rem ;
+  padding-left: 20px;
   li {
   list-style-type: disc;
   font-weight: 600;
   }
   p{
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width:940px){
+  .schedule{
+    margin: 0 5vw;
   }
 }

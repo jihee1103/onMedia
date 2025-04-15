@@ -18,7 +18,7 @@
 
   >img {
     max-width: 300px;
-    height: 250px;
+    max-height: 250px;
     /* 최대 높이 설정 */
     object-fit: contain;
     /* 이미지 비율 유지 */
@@ -38,6 +38,26 @@
     }
 }
 
-// .emblem2 {
-//   height: 160px;
-// }
+@media (max-width: 768px){
+  .rewardWrapper {
+    gap: 20px;
+  }
+  .reward {
+    gap: 15px;
+    margin: 10px;
+
+    >img {
+      max-width: 150px;
+    }
+  }
+
+  .emblem {
+    gap: 20px;
+    >img{
+      max-width: 200px;
+      max-height: 120px;
+    }
+  }
+  
+  
+}
