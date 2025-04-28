@@ -10,7 +10,7 @@ function Schedule({ type }) {
         <ul className={styles.schedule}>
           <li>접수기간</li>
           <p>
-            2025년 04월 01일 ~ 2025년 04월 30일
+            2025년 04월 01일 ~ 2025년 05월 12일
             <br />※ 부문별 마감 기한 상이
           </p>
           <li>전문가 평가 및 최종 심의</li>
