@@ -1,6 +1,6 @@
 import "./header.css";
 import { Link } from "react-router-dom";
-import MobileMenu from "./mobileMenu";
+import MobileMenu from "./MobileMenu";
 
 function Header() {
   return (
@@ -18,10 +18,10 @@ function Header() {
         <nav className="category">
           <ul>
             <li>
-              <Link to="/k-digital">k-디지털브랜드 대상</Link>
+              <Link to="/mobile">대한민국 모바일서비스 대상</Link>
             </li>
             <li>
-              <Link to="/mobile">대한민국 모바일서비스 대상</Link>
+              <Link to="/k-digital">K-디지털브랜드 대상</Link>
             </li>
             <li>
               <Link to="/appliance">대한민국 가전대상</Link>
