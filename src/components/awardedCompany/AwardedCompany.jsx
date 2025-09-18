@@ -11,8 +11,6 @@ function AwardedCompany({ type, year = 2024 }) {
     appliance: { 2025: "/assets/applianceAward/appliance-2025awarded.jpg" },
   };
 
-  console.log(awardedImages[type]);
-
   return (
     <div className={styles.awarded}>
       <div>
