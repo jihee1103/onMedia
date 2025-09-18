@@ -19,7 +19,8 @@ function Kdigital() {
         <Schedule type={"digital"} />
         <Evaluation type={"digital"} />
         <RewardDetail type={"digital"} />
-        <AwardedCompany type={"digital"} />
+        <AwardedCompany type={"digital"} year={2025} />
+        <AwardedCompany type={"digital"} year={2024} />
       </div>
     </>
   );

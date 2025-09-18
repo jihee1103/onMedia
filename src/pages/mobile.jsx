@@ -75,7 +75,7 @@ function Mobile() {
           </div>
         </div>
         <RewardDetail type={"mobile"} />
-        <AwardedCompany type={"mobile"} />
+        <AwardedCompany type={"mobile"} year={2024} />
       </div>
     </>
   );

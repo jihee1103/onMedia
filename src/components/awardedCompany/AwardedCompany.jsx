@@ -1,20 +1,25 @@
 import styles from "./awardedCompany.module.scss";
 import IndexTitle from "../index/IndexTitle";
 
-function AwardedCompany({ type }) {
+function AwardedCompany({ type, year = 2024 }) {
   const awardedImages = {
-    digital: "/assets/digitalAward/digital-2025awarded.jpeg",
-    mobile: "/assets/mobileAward/mobile-2024awarded.png",
-    appliance: "/assets/applianceAward/appliance-2024awarded.jpg",
+    digital: {
+      2025: "/assets/digitalAward/digital-2025awarded.jpeg",
+      2024: "/assets/digitalAward/digital-2024awarded.jpg",
+    },
+    mobile: { 2024: "/assets/mobileAward/mobile-2024awarded.png" },
+    appliance: { 2025: "/assets/applianceAward/appliance-2025awarded.jpg" },
   };
+
+  console.log(awardedImages[type]);
 
   return (
     <div className={styles.awarded}>
       <div>
-        <IndexTitle type={type}>2025 수상사</IndexTitle>
+        <IndexTitle type={type}>{year} 수상사</IndexTitle>
       </div>
       <div className={styles.awardedCompany}>
-        <img src={awardedImages[type]} alt={`${type} 2024 수상사`} />
+        <img src={awardedImages[type][year]} alt={`${type} ${year} 수상사`} />
       </div>
     </div>
   );

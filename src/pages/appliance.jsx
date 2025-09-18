@@ -19,7 +19,7 @@ function Appliance() {
         <Schedule type={"appliance"} />
         <Evaluation type={"appliance"} />
         <RewardDetail type={"appliance"} />
-        <AwardedCompany type={"appliance"} />
+        <AwardedCompany type={"appliance"} year={2025} />
       </div>
     </>
   );
