@@ -3,7 +3,7 @@ import IndexTitle from "../index/IndexTitle";
 
 function AwardedCompany({ type }) {
   const awardedImages = {
-    digital: "/assets/digitalAward/digital-2024awarded.jpg",
+    digital: "/assets/digitalAward/digital-2025awarded.jpeg",
     mobile: "/assets/mobileAward/mobile-2024awarded.png",
     appliance: "/assets/applianceAward/appliance-2024awarded.jpg",
   };
