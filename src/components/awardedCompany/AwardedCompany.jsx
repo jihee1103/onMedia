@@ -11,7 +11,7 @@ function AwardedCompany({ type }) {
   return (
     <div className={styles.awarded}>
       <div>
-        <IndexTitle type={type}>2024 수상사</IndexTitle>
+        <IndexTitle type={type}>2025 수상사</IndexTitle>
       </div>
       <div className={styles.awardedCompany}>
         <img src={awardedImages[type]} alt={`${type} 2024 수상사`} />
