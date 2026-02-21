@@ -64,8 +64,8 @@ function RewardDetail({ type }) {
           </div>
           <div className={styles.reward}>
             <div className={styles.emblem}>
-              <img src="/assets/applianceAward/appliance-reward3.png" />
-              <img src="/assets/applianceAward/appliance-reward4.png" />
+              <img src="/assets/applianceAward/appliance-reward3.jpg" />
+              {/* <img src="/assets/applianceAward/appliance-reward4.png" /> */}
             </div>
             <div>수상 엠블럼</div>
           </div>
