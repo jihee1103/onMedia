@@ -10,12 +10,12 @@ import Banner from "./Banner";
 
 const carouselData = [
   {
-    src: "/assets/applianceAward/1.jpg",
-    id: "appliance",
-  },
-  {
     src: "/assets/digitalAward/1.png",
     id: "k-digital",
+  },
+  {
+    src: "/assets/applianceAward/1.jpg",
+    id: "appliance",
   },
   {
     src: "/assets/mobileAward/1.png",
